@@ -1,0 +1,19 @@
+que es el software testing?
+
+cuales son las fases en el ciclo de pruebas del software?
+
+por que es importante el análisis de requisitos?
+
+que información básica debe de tener un buen caso de pruebas?
+
+que información básica debe de tener un reporte de bugs?
+
+cual es el ciclo de vida de un bug?
+
+que tipos de pruebas hay?
+
+cuando se debería de automatizar un caso de prueba?
+
+que herramientas se usan para automatizar pruebas?
+
+
