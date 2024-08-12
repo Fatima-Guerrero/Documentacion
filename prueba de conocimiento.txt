@@ -1,4 +1,7 @@
-que es el software testing?
+1.- ¿Que es el software testing?
+
+	Proceso para verificar y validar la funcionalidad de un programa o application,
+	asegurando la calidad y que este libre de errores.
 
 cuales son las fases en el ciclo de pruebas del software?
 
