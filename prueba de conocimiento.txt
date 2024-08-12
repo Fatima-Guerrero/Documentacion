@@ -3,9 +3,19 @@
 	Proceso para verificar y validar la funcionalidad de un programa o application,
 	asegurando la calidad y que este libre de errores.
 
-cuales son las fases en el ciclo de pruebas del software?
+2.- ¿Cuales son las fases en el ciclo de pruebas del software?
 
-por que es importante el análisis de requisitos?
+	* Análisis e requisitos
+	* Planeación de pruebas
+	* Diseño de casos de prueba
+	* Configuración de ambiente
+	* Ejecución de pruebas
+	* Cierre  
+
+3.- ¿Por que es importante el análisis de requisitos?
+
+	Se necesita entender los requerimientos, para poder definir los casos de prueba
+	y después validar que el sistema cumpla con los resultados esperados.
 
 que información básica debe de tener un buen caso de pruebas?
 
