@@ -17,16 +17,50 @@
 	Se necesita entender los requerimientos, para poder definir los casos de prueba
 	y después validar que el sistema cumpla con los resultados esperados.
 
-que información básica debe de tener un buen caso de pruebas?
+4.- ¿Que información básica debe de tener un buen caso de pruebas?
 
-que información básica debe de tener un reporte de bugs?
+	* Tipo de prueba
+	* Descripción del caso
+	* Pasos
+	* Resultado esperado
+	* Resultado obtenido
+	* Estado
 
-cual es el ciclo de vida de un bug?
+5.- ¿Que información básica debe de tener un reporte de bugs?
 
-que tipos de pruebas hay?
+	* Tipo de bug 
+	* Resumen de bug
+	* Pasos de reproducción
+	* Resultado esperado
+	* Resultado obtenido
+	* Ambiente/ browser/ os
+	* Screenshot/ stack trace/ logs (evidencia)
 
-cuando se debería de automatizar un caso de prueba?
+6.- ¿Cual es el ciclo de vida de un bug?
 
-que herramientas se usan para automatizar pruebas?
+	* Nuevo
+	* Asignado
+	* Verificado
+	* Cerrado
 
+7.- ¿Que tipos de pruebas hay?
+
+	Pruebas funcionales	Pruebas no funcionales
+	*unitarias		*stress
+	*smoke test		*carga
+	*integración		*rendimiento
+	*regresión 		*seguridad
+	*aceptación
+
+8.- ¿Cuando se debería de automatizar un caso de prueba?
+
+	*cuando la prueba se corre de forma recurrente
+	*cuando hay pruebas que consumen mucho tiempo
+	*cuando la prueba se necesita correr n diferentes navegadores
+ 
+9.- ¿Que herramientas se usan para automatizar pruebas?
+	
+	* Automatización web: Cypress, selenium, playwright
+	* Automatización API's: Postman, SOAPUI, Ready API
+	* Pruebas Performance: Jmeter, Blazemeter
 
