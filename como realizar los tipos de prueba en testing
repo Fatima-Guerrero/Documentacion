@@ -1,0 +1,16 @@
+PASOS PARA REALIZAR UNA PRUEBA DE CAJA NEGRA
+
+	1.- Entender los requisitos y especificaciones
+		* Leer y comprender los requisitos funcionales del software que se va a
+		  probar. (se detalla lo que el software debe de hacer.
+		* Revisar cualquier documentación relacionada, como especificaciones 
+		  funcionales, casos de uso o historias de usuario.
+
+	2.- Identificar los casos de prueba
+		* Basándose en los requisitos, identificar los diferentes escenarios que
+		  se necesita probar. (cada escenario debe de cubrir un aspecto funcional
+		  de la aplicación)
+		* Considerar tanto los casos de prueba positivos (donde la app debe de 
+		  funcionar correctamente) como los negativos (donde la app debería manejar
+		  errores o entradas no válidas correctamente.
+		  
