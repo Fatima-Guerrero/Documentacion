@@ -1,16 +1,80 @@
 PASOS PARA REALIZAR UNA PRUEBA DE CAJA NEGRA
 
-	1.- Entender los requisitos y especificaciones
+	1.- Entender los requisitos y especificaciones.
 		* Leer y comprender los requisitos funcionales del software que se va a
 		  probar. (se detalla lo que el software debe de hacer.
 		* Revisar cualquier documentación relacionada, como especificaciones 
 		  funcionales, casos de uso o historias de usuario.
 
-	2.- Identificar los casos de prueba
+	2.- Identificar los casos de prueba.
 		* Basándose en los requisitos, identificar los diferentes escenarios que
 		  se necesita probar. (cada escenario debe de cubrir un aspecto funcional
-		  de la aplicación)
+		  de la aplicación).
 		* Considerar tanto los casos de prueba positivos (donde la app debe de 
 		  funcionar correctamente) como los negativos (donde la app debería manejar
 		  errores o entradas no válidas correctamente.
-		  
+
+	3.- Diseñar los casos de prueba.
+		* Escribir los casos de prueba detallados, especificando los datos de
+		  entrada
+		  los pasos a seguir y los resultados esperados. (Un caso de prueba podía 
+		  involucrar verificar cómo la app responde a una entrada específica o cómo 		  maneja una acción particular).
+		
+		* Ejemplo: 
+		     + caso de prueba: Verificar el proceso de inicio de sesión.
+			+ Entrada: Usuario proporciona un nombre de usuario y contraseña
+				   validos.
+			+ Acción: Usuario hace click en el botón "Iniciar sesión"
+			+ Resultado esperado: El usuario es redirigido a la pagina de 				  inicio.
+
+	4.- Ejecutar los casos de prueba.
+		* Se ejecutan los casos de prueba manualmente o utilizando herramientas 
+		  automatizadas, siguiendo los pasos definidos.
+		* Introduce las entradas especificas y observa los resultados obtenidos.
+		* Registra cualquier discrepancia entre los resultados obtenidos y los
+		  resultados esperados.
+
+	5.- Registrar los resultados.
+		* Documentar los resultados de cada caso de prueba. (si la prueba falló se
+		  documenta el problema con mucha claridad en los detalles).
+		* Si se encuentran bugs o defectos se deben de registrar utilizando un 
+		  sistema de gestión de bugs, proporcionando detalles de como replicarlos.
+
+	6.- Repetir las pruebas.
+		* Si se realizan correcciones en el software, se repiten las pruebas para 
+		  verificar que los problemas hayan sido solucionados y que no hayan nuevos
+		  errores.
+
+	Herramientas comunes para pruebas de caja negra
+		* Manual: Ejecución manual de los casos de prueba.
+		* Automatizadas: Selenium, QTP, TestComplete o Cucumber para automatizar 
+		  las pruebas de caja negra.
+
+	Tipos de pruebas de caja negra.
+		* Pruebas funcionales: Verificar si las funciones del software se comportan
+		  según lo especificado.
+		* Pruebas de interfaz: Asegurarse de que las interfaces de usuario sean
+		  fáciles de usar y funcionen correctamente.
+		* Pruebas de usabilidad: Evaluar la facilidad de uso del software por parte
+		  del usuario final.
+		* Pruebas de regresión: Verificar que las nuevas actualizaciones o cambios
+		  no rompan las funcionalidades existentes.
+
+	Ejemplo practico:
+	     Supón que estás probando una calculadora simple que suma dos números:
+
+		* Requisito: La calculadora debe sumar correctamente dos números.
+		* Caso de Prueba:
+		* Entrada: 2 + 3.
+		* Acción: El usuario presiona el botón "Igual".
+		* Resultado Esperado: La calculadora muestra "5".
+		* Resultado Obtenido: Si el resultado es "5", el caso de prueba pasa; si
+		  no, falla y se registra un bug.
+
+	Concusión.
+		La prueba de caja negra se centra en validar el comportamiento que se 	
+		puede observar del software, no es necesario conocer el código fuente 
+		para esta prueba. 
+
+
+  		  
