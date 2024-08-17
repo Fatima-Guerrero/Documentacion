@@ -5,7 +5,7 @@
 
 2.- ¿Cuales son las fases en el ciclo de pruebas del software?
 
-	* Análisis e requisitos
+	* Análisis de requisitos
 	* Planeación de pruebas
 	* Diseño de casos de prueba
 	* Configuración de ambiente
