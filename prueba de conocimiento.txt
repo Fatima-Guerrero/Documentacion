@@ -38,9 +38,12 @@
 
 6.- ¿Cual es el ciclo de vida de un bug?
 
-	* Nuevo
-	* Asignado
-	* Verificado
+	* Nuevo: cuando se crea
+	* Asignado: cuando se le asigna al desarrollador 
+	* Activo: (rechazado o reabierto) cuando lo revisa el desarrollador lo puede 
+		rechazar por que no es un bug, o lo acepta y lo corrige y cuando el tester
+		lo vuelve a probar y encuentra el mismo error lo reabren
+	* Verificado: cuando el bug se corrige
 	* Cerrado
 
 7.- ¿Que tipos de pruebas hay?
